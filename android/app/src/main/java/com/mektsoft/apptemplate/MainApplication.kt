@@ -1,4 +1,4 @@
-package com.template
+package com.mektsoft.apptemplate
 
 import android.app.Application
 import com.facebook.react.PackageList

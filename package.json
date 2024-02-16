@@ -1,17 +1,27 @@
 {
-  "name": "template",
+  "name": "mektapp",
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
+    "android:dev": "react-native run-android --variant devDebug --appIdSuffix dev",
+    "android:staging": "react-native run-android --variant stagingDebug --appIdSuffix staging",
+    "android:prod": "react-native run-android --variant prodDebug --appIdSuffix prod",
+    "ios:dev": "react-native run-ios --scheme Mektapp-Dev",
+    "ios:staging": "react-native run-ios --scheme Mektapp-Staging",
+    "ios:prod": "react-native run-ios --scheme Mektapp",
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-firebase/analytics": "^18.8.0",
+    "@react-native-firebase/app": "^18.8.0",
+    "@react-native-firebase/auth": "^18.8.0",
+    "@react-native-firebase/crashlytics": "^18.8.0",
+    "@react-native-firebase/messaging": "^18.8.0",
     "react": "18.2.0",
-    "react-native": "0.73.3"
+    "react-native": "0.73.3",
+    "react-native-config": "^1.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
