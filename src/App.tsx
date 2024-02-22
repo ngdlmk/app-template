@@ -1,10 +1,9 @@
 import SignedInNavigator from './navigation/signedInNavigator';
 import AuthNavigator from './navigation/authNavigator';
 import React from 'react';
-import {SafeAreaView} from 'react-native';
 import {NavigationState} from './constants/navigationState';
 
-const navigationState: NavigationState = NavigationState.SIGNED_OUT;
+const navigationState: NavigationState = NavigationState.SIGNED_IN;
 
 function App(): React.JSX.Element {
   const selectNavgator = () => {
@@ -14,10 +13,10 @@ function App(): React.JSX.Element {
       case NavigationState.SIGNED_OUT:
         return <AuthNavigator />;
       default:
-        break;
+        return <AuthNavigator />;
     }
   };
-  return <SafeAreaView style={{flex: 1}}>{selectNavgator()}</SafeAreaView>;
+  return selectNavgator();
 }
 
 export default App;

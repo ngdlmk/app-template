@@ -1,13 +1,16 @@
 import {NavigationContainer} from '@react-navigation/native';
-import {NativeStackNavigationOptions} from '@react-navigation/native-stack';
+import {
+  NativeStackNavigationOptions,
+  createNativeStackNavigator,
+} from '@react-navigation/native-stack';
 import {signedInRoutes} from 'constants/routes';
-import React, {useEffect} from 'react';
+import React from 'react';
 
-import {StatusBar} from 'react-native';
 import HomeScreen from 'screens/signedIn/homeScreen';
 import SettingsScreen from 'screens/signedIn/settingsScreen';
 import UserProfileScreen from 'screens/signedIn/userProfileScreen';
-import {SingedInStack} from 'types/navigation';
+import TabNavigator from './tabNavigator';
+import {SignedInStackParamList} from 'types/navigation';
 
 const headerOptions: NativeStackNavigationOptions = {
   headerShown: false,
@@ -15,17 +18,21 @@ const headerOptions: NativeStackNavigationOptions = {
   headerShadowVisible: false,
 };
 
-const SignedInNavigator = () => {
-  /* useEffect(() => {
-    StatusBar.setBarStyle(settings.statusBarTheme);
-  }, [settings]); */
+export const SingedInStack =
+  createNativeStackNavigator<SignedInStackParamList>();
 
+const SignedInNavigator = () => {
   return (
     <NavigationContainer>
       <SingedInStack.Navigator
         screenOptions={{
           ...headerOptions,
         }}>
+        <SingedInStack.Screen
+          options={{headerShown: false}}
+          name={signedInRoutes.TAB_NAVIGATOR}
+          component={TabNavigator}
+        />
         <SingedInStack.Screen
           name={signedInRoutes.HOME_SCREEN}
           component={HomeScreen}

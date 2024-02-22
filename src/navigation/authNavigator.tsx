@@ -1,17 +1,12 @@
 import {NavigationContainer} from '@react-navigation/native';
 import {
-  createNativeStackNavigator,
   NativeStackNavigationOptions,
+  createNativeStackNavigator,
 } from '@react-navigation/native-stack';
 import {authRoutes} from 'constants/routes';
 import React from 'react';
 import IntroScreen from 'screens/signedOut/introScreen';
-
-export type SignedInStackParamList = {
-  [authRoutes.INTRO_SCREEN]: undefined;
-};
-
-const Stack = createNativeStackNavigator<SignedInStackParamList>();
+import {AuthStackParamList} from 'types/navigation';
 
 const headerOptions: NativeStackNavigationOptions = {
   headerShown: false,
@@ -19,15 +14,20 @@ const headerOptions: NativeStackNavigationOptions = {
   headerShadowVisible: false,
 };
 
+export const AuthStack = createNativeStackNavigator<AuthStackParamList>();
+
 const AuthNavigator = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator
+      <AuthStack.Navigator
         screenOptions={{
           ...headerOptions,
         }}>
-        <Stack.Screen name={authRoutes.INTRO_SCREEN} component={IntroScreen} />
-      </Stack.Navigator>
+        <AuthStack.Screen
+          name={authRoutes.INTRO_SCREEN}
+          component={IntroScreen}
+        />
+      </AuthStack.Navigator>
     </NavigationContainer>
   );
 };

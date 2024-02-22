@@ -2,14 +2,14 @@ import {useNavigation} from '@react-navigation/native';
 import {signedInRoutes} from 'constants/routes';
 import React from 'react';
 import {StyleSheet, Text, TouchableOpacity} from 'react-native';
-import {NavigationType} from 'types/navigation';
+import {SigninNavigationType} from 'types/navigation';
 
 type Props = {
   title: string;
 };
 
 const Button = ({title}: Props) => {
-  const navigation = useNavigation<NavigationType>();
+  const navigation = useNavigation<SigninNavigationType>();
   navigation.navigate(signedInRoutes.USER_PROFILE_SCREEN, {userId: 'asdf1234'});
   return (
     <TouchableOpacity style={styles.container}>

@@ -2,12 +2,18 @@ import {
   NativeStackNavigationProp,
   NativeStackScreenProps,
 } from '@react-navigation/native-stack';
-//import TabNavigator from './tabNavigator';
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {signedInRoutes} from 'constants/routes';
+import {authRoutes, signedInRoutes, tabRoutes} from 'constants/routes';
 
+//**** Signin Navigation ****//
 export type SignedInStackParamList = {
-  //[Routes.TAB_NAVIGATOR]: { screen: Routes };
+  //tabs
+  [tabRoutes.HOME_TAB]: undefined;
+  [tabRoutes.LIBRARY_TAB]: undefined;
+  [tabRoutes.CALENDAR_TAB]: undefined;
+  [tabRoutes.BRAND_TAB]: undefined;
+  [tabRoutes.PLACEHOLDER_TAB]: undefined;
+  //screens
+  [signedInRoutes.TAB_NAVIGATOR]: undefined;
   [signedInRoutes.HOME_SCREEN]: undefined;
   [signedInRoutes.SETTINGS_SCREEN]: undefined;
   [signedInRoutes.USER_PROFILE_SCREEN]: {
@@ -15,11 +21,9 @@ export type SignedInStackParamList = {
   };
 };
 
-export type NavigationType = NativeStackNavigationProp<SignedInStackParamList>;
-
 //use for useNavigation
-export const SingedInStack =
-  createNativeStackNavigator<SignedInStackParamList>();
+export type SigninNavigationType =
+  NativeStackNavigationProp<SignedInStackParamList>;
 
 //use for screen props
 export type HomeScreenNavigationProps = NativeStackScreenProps<
@@ -36,3 +40,10 @@ export type UserProfileScreenNavigationProps = NativeStackScreenProps<
   SignedInStackParamList,
   typeof signedInRoutes.USER_PROFILE_SCREEN
 >;
+
+//**** Auth Navigation ****//
+export type AuthStackParamList = {
+  [authRoutes.INTRO_SCREEN]: undefined;
+};
+
+export type AuthNavigationType = NativeStackNavigationProp<AuthStackParamList>;
