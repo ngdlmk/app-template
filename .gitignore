@@ -22,6 +22,20 @@ DerivedData
 *.xcuserstate
 ios/.xcode.env.local
 
+#env
+.env
+.env.dev
+.env.staging
+.env.prod
+
+#secret datas
+ios/GoogleServices/dev/GoogleService-Info.plist
+ios/GoogleServices/staging/GoogleService-Info.plist
+ios/GoogleServices/prod/GoogleService-Info.plist
+android/app/src/dev/google-services.json
+android/app/src/staging/google-services.json
+android/app/src/prod/google-services.json
+
 # Android/IntelliJ
 #
 build/
