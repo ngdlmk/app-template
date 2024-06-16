@@ -5,7 +5,7 @@ import {
   createBottomTabNavigator,
 } from '@react-navigation/bottom-tabs';
 import TabBar from 'components/features/bottomNavigation/tabBar';
-import {SignedInStackParamList} from 'types/navigation';
+import {SignedInStackParamList} from 'types/navigationTypes';
 import {tabRoutes} from 'constants/routes';
 //screens
 import HomeTab from 'screens/tabs/homeTab';

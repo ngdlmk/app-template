@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Text} from 'react-native';
-import {UserProfileScreenNavigationProps} from 'types/navigation';
+import {UserProfileScreenNavigationProps} from 'types/navigationTypes';
 
 const UserProfileScreen = ({route}: UserProfileScreenNavigationProps) => {
   console.log(route.params.userId);

@@ -40,6 +40,7 @@ export type UserProfileScreenNavigationProps = NativeStackScreenProps<
   SignedInStackParamList,
   typeof signedInRoutes.USER_PROFILE_SCREEN
 >;
+//**** Signin Navigation ****//
 
 //**** Auth Navigation ****//
 export type AuthStackParamList = {
@@ -47,3 +48,4 @@ export type AuthStackParamList = {
 };
 
 export type AuthNavigationType = NativeStackNavigationProp<AuthStackParamList>;
+//**** Auth Navigation ****//

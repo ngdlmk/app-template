@@ -10,7 +10,7 @@ import HomeScreen from 'screens/signedIn/homeScreen';
 import SettingsScreen from 'screens/signedIn/settingsScreen';
 import UserProfileScreen from 'screens/signedIn/userProfileScreen';
 import TabNavigator from './tabNavigator';
-import {SignedInStackParamList} from 'types/navigation';
+import {SignedInStackParamList} from 'types/navigationTypes';
 
 const headerOptions: NativeStackNavigationOptions = {
   headerShown: false,

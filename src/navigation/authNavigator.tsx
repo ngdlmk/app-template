@@ -6,7 +6,7 @@ import {
 import {authRoutes} from 'constants/routes';
 import React from 'react';
 import IntroScreen from 'screens/signedOut/introScreen';
-import {AuthStackParamList} from 'types/navigation';
+import {AuthStackParamList} from 'types/navigationTypes';
 
 const headerOptions: NativeStackNavigationOptions = {
   headerShown: false,

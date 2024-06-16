@@ -2,7 +2,7 @@ import {useNavigation} from '@react-navigation/native';
 import {signedInRoutes} from 'constants/routes';
 import React from 'react';
 import {StyleSheet, Text, TouchableOpacity} from 'react-native';
-import {SigninNavigationType} from 'types/navigation';
+import {SigninNavigationType} from 'types/navigationTypes';
 
 type Props = {
   title: string;
