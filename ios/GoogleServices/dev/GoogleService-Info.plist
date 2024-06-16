@@ -2,29 +2,5 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>API_KEY</key>
-	<string>AIzaSyDkUN6h1XR51csxCYk4OTZ7pdHbLcGlRY0</string>
-	<key>GCM_SENDER_ID</key>
-	<string>724277848177</string>
-	<key>PLIST_VERSION</key>
-	<string>1</string>
-	<key>BUNDLE_ID</key>
-	<string>com.mektsoft.apptemplate.dev</string>
-	<key>PROJECT_ID</key>
-	<string>mektsoftapp-template-dev</string>
-	<key>STORAGE_BUCKET</key>
-	<string>mektsoftapp-template-dev.appspot.com</string>
-	<key>IS_ADS_ENABLED</key>
-	<false></false>
-	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
-	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
-	<key>IS_GCM_ENABLED</key>
-	<true></true>
-	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
-	<key>GOOGLE_APP_ID</key>
-	<string>1:724277848177:ios:23ba5c541fa814279f93d0</string>
 </dict>
 </plist>
