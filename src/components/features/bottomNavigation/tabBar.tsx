@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
 import {BottomTabBarProps} from '@react-navigation/bottom-tabs';
-import {TabNavigationButton} from 'components/features/bottomNavigation/TabNavigationButton';
+import {TabNavigationButton} from './tabNavigationButton';
 import {tabRoutes} from 'constants/routes';
 import Icon from 'assets/svg';
 import {TabItemType} from 'types/componentTypes';

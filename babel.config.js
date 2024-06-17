@@ -16,18 +16,6 @@ module.exports = {
           '.svg',
         ],
         alias: {
-          '@api/*': './src/api/*',
-          '@assets/*': './src/assets/*',
-          '@components/*': './src/components/*',
-          '@constants/*': './src/constants/*',
-          '@hooks/*': './src/hooks/*',
-          '@navigation/*': './src/navigation/*',
-          '@screens/*': './src/screens/*',
-          '@state/*': './src/state/*',
-          '@tests/*': './src/tests/*',
-          '@theme/*': './src/theme/*',
-          '@types/*': './src/types/*',
-          '@utils/*': './src/utils/*',
           // Match these aliases to those defined in tsconfig.json
         },
       },

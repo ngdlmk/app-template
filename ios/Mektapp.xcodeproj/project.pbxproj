@@ -26,9 +26,24 @@
 		9A390C862B69023900BDA2CC /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 9A390C852B69023900BDA2CC /* Config.xcconfig */; };
 		9A390C872B69023900BDA2CC /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 9A390C852B69023900BDA2CC /* Config.xcconfig */; };
 		9A390C882B69023900BDA2CC /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 9A390C852B69023900BDA2CC /* Config.xcconfig */; };
-		9A390C8E2B694C0B00BDA2CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A390C8D2B694C0B00BDA2CC /* GoogleService-Info.plist */; };
 		9A390C922B694C4000BDA2CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A390C912B694C4000BDA2CC /* GoogleService-Info.plist */; };
 		9A390C942B694C6800BDA2CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A390C932B694C6800BDA2CC /* GoogleService-Info.plist */; };
+		9AAAC2382C1FAFD900091178 /* PlaywriteNL-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 292CC7D1A259492290D4A01A /* PlaywriteNL-ExtraLight.ttf */; };
+		9AAAC2392C1FAFD900091178 /* PlaywriteNL-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01125CE2FDAC43849F093719 /* PlaywriteNL-Light.ttf */; };
+		9AAAC23A2C1FAFD900091178 /* PlaywriteNL-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F134AC9A76747D18F1F5823 /* PlaywriteNL-Regular.ttf */; };
+		9AAAC23B2C1FAFD900091178 /* PlaywriteNL-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E35309C1C614A57B44E31BC /* PlaywriteNL-Thin.ttf */; };
+		9AAAC23C2C1FB03C00091178 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A390C8D2B694C0B00BDA2CC /* GoogleService-Info.plist */; };
+		9AAAC23D2C1FB04C00091178 /* PlaywriteNL-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 292CC7D1A259492290D4A01A /* PlaywriteNL-ExtraLight.ttf */; };
+		9AAAC23E2C1FB04C00091178 /* PlaywriteNL-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01125CE2FDAC43849F093719 /* PlaywriteNL-Light.ttf */; };
+		9AAAC23F2C1FB04C00091178 /* PlaywriteNL-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F134AC9A76747D18F1F5823 /* PlaywriteNL-Regular.ttf */; };
+		9AAAC2402C1FB04C00091178 /* PlaywriteNL-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E35309C1C614A57B44E31BC /* PlaywriteNL-Thin.ttf */; };
+		9AAAC2492C1FB45300091178 /* PlaywriteNL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB77D56D29F0493A8A0457EF /* PlaywriteNL.ttf */; };
+		9AAAC24A2C1FB48600091178 /* PlaywriteNL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB77D56D29F0493A8A0457EF /* PlaywriteNL.ttf */; };
+		ACD133EF80AA49459A01F4AD /* PlaywriteNL-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 292CC7D1A259492290D4A01A /* PlaywriteNL-ExtraLight.ttf */; };
+		B4700E3D1A754CD9A0F695A4 /* PlaywriteNL-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E35309C1C614A57B44E31BC /* PlaywriteNL-Thin.ttf */; };
+		B9AF5FED7D554E48AEF57DF5 /* PlaywriteNL-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F134AC9A76747D18F1F5823 /* PlaywriteNL-Regular.ttf */; };
+		C3EE3573F1F54D948ED4024E /* PlaywriteNL-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01125CE2FDAC43849F093719 /* PlaywriteNL-Light.ttf */; };
+		C7250932E57743AA83991AEF /* PlaywriteNL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB77D56D29F0493A8A0457EF /* PlaywriteNL.ttf */; };
 		CB8F122A3331BD3D4213E8BF /* Pods_Mektapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A23563E5D3B06BE08443A6 /* Pods_Mektapp.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +61,7 @@
 		00E356EE1AD99517003FC87E /* MektappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MektappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MektappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MektappTests.m; sourceTree = "<group>"; };
+		01125CE2FDAC43849F093719 /* PlaywriteNL-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlaywriteNL-Light.ttf"; path = "../src/assets/fonts/PlaywriteNL-Light.ttf"; sourceTree = "<group>"; };
 		11A7A885B61ECA6BC786C9FE /* Pods_Mektapp_Mektapp_Staging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mektapp_Mektapp_Staging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* Mektapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mektapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Mektapp/AppDelegate.h; sourceTree = "<group>"; };
@@ -53,23 +69,27 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Mektapp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Mektapp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Mektapp/main.m; sourceTree = "<group>"; };
+		292CC7D1A259492290D4A01A /* PlaywriteNL-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlaywriteNL-ExtraLight.ttf"; path = "../src/assets/fonts/PlaywriteNL-ExtraLight.ttf"; sourceTree = "<group>"; };
 		36BC6B202BA8EEBDFCEB30CC /* Pods-Mektapp-Mektapp-Staging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mektapp-Mektapp-Staging.debug.xcconfig"; path = "Target Support Files/Pods-Mektapp-Mektapp-Staging/Pods-Mektapp-Mektapp-Staging.debug.xcconfig"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-Mektapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mektapp.debug.xcconfig"; path = "Target Support Files/Pods-Mektapp/Pods-Mektapp.debug.xcconfig"; sourceTree = "<group>"; };
+		4F134AC9A76747D18F1F5823 /* PlaywriteNL-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlaywriteNL-Regular.ttf"; path = "../src/assets/fonts/PlaywriteNL-Regular.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-Mektapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mektapp.release.xcconfig"; path = "Target Support Files/Pods-Mektapp/Pods-Mektapp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-Mektapp-MektappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mektapp-MektappTests.debug.xcconfig"; path = "Target Support Files/Pods-Mektapp-MektappTests/Pods-Mektapp-MektappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E35309C1C614A57B44E31BC /* PlaywriteNL-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlaywriteNL-Thin.ttf"; path = "../src/assets/fonts/PlaywriteNL-Thin.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Mektapp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88AA66790EB4082156936889 /* Pods_Mektapp_Mektapp_Dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mektapp_Mektapp_Dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Mektapp-MektappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mektapp-MektappTests.release.xcconfig"; path = "Target Support Files/Pods-Mektapp-MektappTests/Pods-Mektapp-MektappTests.release.xcconfig"; sourceTree = "<group>"; };
-		9A390C702B68E67600BDA2CC /* Mektapp-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mektapp-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A390C712B68E67600BDA2CC /* Mektapp-Info-Dev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Mektapp-Info-Dev.plist"; path = "/Users/kamildogan/Desktop/projects/mektsoft/react-native/template/ios/Mektapp-Info-Dev.plist"; sourceTree = "<absolute>"; };
+		9A390C702B68E67600BDA2CC /* DevX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A390C822B68E67B00BDA2CC /* Mektapp-Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mektapp-Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A390C832B68E67B00BDA2CC /* Mektapp-Info-Staging.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Mektapp-Info-Staging.plist"; path = "/Users/kamildogan/Desktop/projects/mektsoft/react-native/template/ios/Mektapp-Info-Staging.plist"; sourceTree = "<absolute>"; };
 		9A390C852B69023900BDA2CC /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		9A390C8D2B694C0B00BDA2CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9A390C912B694C4000BDA2CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9A390C932B694C6800BDA2CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9AAAC2412C1FB1C100091178 /* Mektapp-Info-Staging.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Mektapp-Info-Staging.plist"; path = "Mektapp/Mektapp-Info-Staging.plist"; sourceTree = "<group>"; };
+		9AAAC2422C1FB1C100091178 /* Mektapp-Info-Dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Mektapp-Info-Dev.plist"; path = "Mektapp/Mektapp-Info-Dev.plist"; sourceTree = "<group>"; };
 		A9A23563E5D3B06BE08443A6 /* Pods_Mektapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mektapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8753284DA57D1B8DD7961E0 /* Pods-Mektapp-Mektapp-Staging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mektapp-Mektapp-Staging.release.xcconfig"; path = "Target Support Files/Pods-Mektapp-Mektapp-Staging/Pods-Mektapp-Mektapp-Staging.release.xcconfig"; sourceTree = "<group>"; };
+		CB77D56D29F0493A8A0457EF /* PlaywriteNL.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = PlaywriteNL.ttf; path = ../src/assets/fonts/PlaywriteNL.ttf; sourceTree = "<group>"; };
 		CF2EC6F159617B857D995B49 /* Pods-Mektapp-Mektapp-Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mektapp-Mektapp-Dev.debug.xcconfig"; path = "Target Support Files/Pods-Mektapp-Mektapp-Dev/Pods-Mektapp-Mektapp-Dev.debug.xcconfig"; sourceTree = "<group>"; };
 		E50200001FEA49D8611A057E /* Pods_Mektapp_MektappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mektapp_MektappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -132,6 +152,8 @@
 		13B07FAE1A68108700A75B9A /* Mektapp */ = {
 			isa = PBXGroup;
 			children = (
+				9AAAC2422C1FB1C100091178 /* Mektapp-Info-Dev.plist */,
+				9AAAC2412C1FB1C100091178 /* Mektapp-Info-Staging.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -172,8 +194,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
-				9A390C712B68E67600BDA2CC /* Mektapp-Info-Dev.plist */,
-				9A390C832B68E67B00BDA2CC /* Mektapp-Info-Staging.plist */,
+				B53834617EEA4A9AB1A2BF55 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -185,7 +206,7 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* Mektapp.app */,
 				00E356EE1AD99517003FC87E /* MektappTests.xctest */,
-				9A390C702B68E67600BDA2CC /* Mektapp-Dev.app */,
+				9A390C702B68E67600BDA2CC /* DevX.app */,
 				9A390C822B68E67B00BDA2CC /* Mektapp-Staging.app */,
 			);
 			name = Products;
@@ -223,6 +244,18 @@
 				9A390C912B694C4000BDA2CC /* GoogleService-Info.plist */,
 			);
 			path = prod;
+			sourceTree = "<group>";
+		};
+		B53834617EEA4A9AB1A2BF55 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				292CC7D1A259492290D4A01A /* PlaywriteNL-ExtraLight.ttf */,
+				01125CE2FDAC43849F093719 /* PlaywriteNL-Light.ttf */,
+				4F134AC9A76747D18F1F5823 /* PlaywriteNL-Regular.ttf */,
+				5E35309C1C614A57B44E31BC /* PlaywriteNL-Thin.ttf */,
+				CB77D56D29F0493A8A0457EF /* PlaywriteNL.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -305,7 +338,7 @@
 			);
 			name = "Mektapp-Dev";
 			productName = Mektapp;
-			productReference = 9A390C702B68E67600BDA2CC /* Mektapp-Dev.app */;
+			productReference = 9A390C702B68E67600BDA2CC /* DevX.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9A390C722B68E67B00BDA2CC /* Mektapp-Staging */ = {
@@ -383,6 +416,11 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				9A390C862B69023900BDA2CC /* Config.xcconfig in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				ACD133EF80AA49459A01F4AD /* PlaywriteNL-ExtraLight.ttf in Resources */,
+				C3EE3573F1F54D948ED4024E /* PlaywriteNL-Light.ttf in Resources */,
+				B9AF5FED7D554E48AEF57DF5 /* PlaywriteNL-Regular.ttf in Resources */,
+				B4700E3D1A754CD9A0F695A4 /* PlaywriteNL-Thin.ttf in Resources */,
+				C7250932E57743AA83991AEF /* PlaywriteNL.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,8 +428,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AAAC2492C1FB45300091178 /* PlaywriteNL.ttf in Resources */,
+				9AAAC23C2C1FB03C00091178 /* GoogleService-Info.plist in Resources */,
+				9AAAC2382C1FAFD900091178 /* PlaywriteNL-ExtraLight.ttf in Resources */,
+				9AAAC2392C1FAFD900091178 /* PlaywriteNL-Light.ttf in Resources */,
+				9AAAC23A2C1FAFD900091178 /* PlaywriteNL-Regular.ttf in Resources */,
+				9AAAC23B2C1FAFD900091178 /* PlaywriteNL-Thin.ttf in Resources */,
 				9A390C682B68E67600BDA2CC /* LaunchScreen.storyboard in Resources */,
-				9A390C8E2B694C0B00BDA2CC /* GoogleService-Info.plist in Resources */,
 				9A390C872B69023900BDA2CC /* Config.xcconfig in Resources */,
 				9A390C692B68E67600BDA2CC /* Images.xcassets in Resources */,
 			);
@@ -401,6 +444,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AAAC24A2C1FB48600091178 /* PlaywriteNL.ttf in Resources */,
+				9AAAC23D2C1FB04C00091178 /* PlaywriteNL-ExtraLight.ttf in Resources */,
+				9AAAC23E2C1FB04C00091178 /* PlaywriteNL-Light.ttf in Resources */,
+				9AAAC23F2C1FB04C00091178 /* PlaywriteNL-Regular.ttf in Resources */,
+				9AAAC2402C1FB04C00091178 /* PlaywriteNL-Thin.ttf in Resources */,
 				9A390C7A2B68E67B00BDA2CC /* LaunchScreen.storyboard in Resources */,
 				9A390C882B69023900BDA2CC /* Config.xcconfig in Resources */,
 				9A390C942B694C6800BDA2CC /* GoogleService-Info.plist in Resources */,
@@ -945,10 +993,7 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -1028,10 +1073,7 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -1047,8 +1089,8 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "Mektapp-Info-Dev.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Mektapp;
+				INFOPLIST_FILE = "Mektapp/Mektapp-Info-Dev.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = DevX;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1060,7 +1102,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mektsoft.apptemplate.dev;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DevX;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1074,8 +1116,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = "Mektapp-Info-Dev.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Mektapp;
+				INFOPLIST_FILE = "Mektapp/Mektapp-Info-Dev.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = DevX;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1087,7 +1129,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mektsoft.apptemplate.dev;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DevX;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1101,8 +1143,8 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "Mektapp-Info-Staging.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Mektapp;
+				INFOPLIST_FILE = "Mektapp/Mektapp-Info-Staging.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MektStag;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1128,8 +1170,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = "Mektapp-Info-Staging.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Mektapp;
+				INFOPLIST_FILE = "Mektapp/Mektapp-Info-Staging.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MektStag;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

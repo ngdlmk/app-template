@@ -26,7 +26,6 @@
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-	  <!-- Do not change NSAllowsArbitraryLoads to true, or you will risk app rejection! -->
 		<key>NSAllowsArbitraryLoads</key>
 		<false/>
 		<key>NSAllowsLocalNetworking</key>
@@ -48,5 +47,13 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>PlaywriteNL-ExtraLight.ttf</string>
+		<string>PlaywriteNL-Light.ttf</string>
+		<string>PlaywriteNL-Regular.ttf</string>
+		<string>PlaywriteNL-Thin.ttf</string>
+		<string>PlaywriteNL.ttf</string>
+	</array>
 </dict>
 </plist>

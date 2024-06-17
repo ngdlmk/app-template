@@ -15,7 +15,7 @@
                   <BuildableReference
                      BuildableIdentifier = "primary"
                      BlueprintIdentifier = "9A390C602B68E67600BDA2CC"
-                     BuildableName = "Mektapp-Dev.app"
+                     BuildableName = "DevX.app"
                      BlueprintName = "Mektapp-Dev"
                      ReferencedContainer = "container:Mektapp.xcodeproj">
                   </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9A390C602B68E67600BDA2CC"
-               BuildableName = "Mektapp-Dev.app"
+               BuildableName = "DevX.app"
                BlueprintName = "Mektapp-Dev"
                ReferencedContainer = "container:Mektapp.xcodeproj">
             </BuildableReference>
@@ -71,7 +71,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9A390C602B68E67600BDA2CC"
-            BuildableName = "Mektapp-Dev.app"
+            BuildableName = "DevX.app"
             BlueprintName = "Mektapp-Dev"
             ReferencedContainer = "container:Mektapp.xcodeproj">
          </BuildableReference>
@@ -98,7 +98,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9A390C602B68E67600BDA2CC"
-            BuildableName = "Mektapp-Dev.app"
+            BuildableName = "DevX.app"
             BlueprintName = "Mektapp-Dev"
             ReferencedContainer = "container:Mektapp.xcodeproj">
          </BuildableReference>

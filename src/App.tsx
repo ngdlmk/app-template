@@ -2,6 +2,7 @@ import SignedInNavigator from './navigation/signedInNavigator';
 import AuthNavigator from './navigation/authNavigator';
 import React from 'react';
 import {NavigationState} from './constants/navigationState';
+import 'utils/i18n';
 
 const navigationState: NavigationState = NavigationState.SIGNED_IN;
 
