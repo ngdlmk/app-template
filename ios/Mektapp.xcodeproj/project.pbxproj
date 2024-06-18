@@ -39,6 +39,9 @@
 		9AAAC2402C1FB04C00091178 /* PlaywriteNL-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E35309C1C614A57B44E31BC /* PlaywriteNL-Thin.ttf */; };
 		9AAAC2492C1FB45300091178 /* PlaywriteNL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB77D56D29F0493A8A0457EF /* PlaywriteNL.ttf */; };
 		9AAAC24A2C1FB48600091178 /* PlaywriteNL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB77D56D29F0493A8A0457EF /* PlaywriteNL.ttf */; };
+		9AAAC24C2C20FF1D00091178 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9AAAC24B2C20FF1D00091178 /* PrivacyInfo.xcprivacy */; };
+		9AAAC24D2C20FF1D00091178 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9AAAC24B2C20FF1D00091178 /* PrivacyInfo.xcprivacy */; };
+		9AAAC24E2C20FF1D00091178 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9AAAC24B2C20FF1D00091178 /* PrivacyInfo.xcprivacy */; };
 		ACD133EF80AA49459A01F4AD /* PlaywriteNL-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 292CC7D1A259492290D4A01A /* PlaywriteNL-ExtraLight.ttf */; };
 		B4700E3D1A754CD9A0F695A4 /* PlaywriteNL-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E35309C1C614A57B44E31BC /* PlaywriteNL-Thin.ttf */; };
 		B9AF5FED7D554E48AEF57DF5 /* PlaywriteNL-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F134AC9A76747D18F1F5823 /* PlaywriteNL-Regular.ttf */; };
@@ -87,6 +90,7 @@
 		9A390C932B694C6800BDA2CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9AAAC2412C1FB1C100091178 /* Mektapp-Info-Staging.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Mektapp-Info-Staging.plist"; path = "Mektapp/Mektapp-Info-Staging.plist"; sourceTree = "<group>"; };
 		9AAAC2422C1FB1C100091178 /* Mektapp-Info-Dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Mektapp-Info-Dev.plist"; path = "Mektapp/Mektapp-Info-Dev.plist"; sourceTree = "<group>"; };
+		9AAAC24B2C20FF1D00091178 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		A9A23563E5D3B06BE08443A6 /* Pods_Mektapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mektapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8753284DA57D1B8DD7961E0 /* Pods-Mektapp-Mektapp-Staging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mektapp-Mektapp-Staging.release.xcconfig"; path = "Target Support Files/Pods-Mektapp-Mektapp-Staging/Pods-Mektapp-Mektapp-Staging.release.xcconfig"; sourceTree = "<group>"; };
 		CB77D56D29F0493A8A0457EF /* PlaywriteNL.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = PlaywriteNL.ttf; path = ../src/assets/fonts/PlaywriteNL.ttf; sourceTree = "<group>"; };
@@ -158,6 +162,7 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
+				9AAAC24B2C20FF1D00091178 /* PrivacyInfo.xcprivacy */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
@@ -420,6 +425,7 @@
 				C3EE3573F1F54D948ED4024E /* PlaywriteNL-Light.ttf in Resources */,
 				B9AF5FED7D554E48AEF57DF5 /* PlaywriteNL-Regular.ttf in Resources */,
 				B4700E3D1A754CD9A0F695A4 /* PlaywriteNL-Thin.ttf in Resources */,
+				9AAAC24C2C20FF1D00091178 /* PrivacyInfo.xcprivacy in Resources */,
 				C7250932E57743AA83991AEF /* PlaywriteNL.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +442,7 @@
 				9AAAC23B2C1FAFD900091178 /* PlaywriteNL-Thin.ttf in Resources */,
 				9A390C682B68E67600BDA2CC /* LaunchScreen.storyboard in Resources */,
 				9A390C872B69023900BDA2CC /* Config.xcconfig in Resources */,
+				9AAAC24D2C20FF1D00091178 /* PrivacyInfo.xcprivacy in Resources */,
 				9A390C692B68E67600BDA2CC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,6 +459,7 @@
 				9A390C7A2B68E67B00BDA2CC /* LaunchScreen.storyboard in Resources */,
 				9A390C882B69023900BDA2CC /* Config.xcconfig in Resources */,
 				9A390C942B694C6800BDA2CC /* GoogleService-Info.plist in Resources */,
+				9AAAC24E2C20FF1D00091178 /* PrivacyInfo.xcprivacy in Resources */,
 				9A390C7B2B68E67B00BDA2CC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -993,7 +1001,10 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -1073,7 +1084,10 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
