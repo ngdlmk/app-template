@@ -1,37 +1,34 @@
-import {useState, useEffect} from 'react';
+import {useState} from 'react';
 import {post} from 'utils/apiClient';
 
-interface UseFetchResult<T> {
-  data: T | null;
+interface UseFetchResult<ResponseType, BodyType> {
+  data: ResponseType | null;
   isLoading: boolean;
   error: string;
+  mutateRequest: (body: BodyType) => void;
 }
 
-function usePost<T>(
+function usePost<ResponseType, BodyType>(
   path: string,
-  body: any = {},
   withAuthToken = false,
-): UseFetchResult<T> {
-  const [data, setData] = useState<T | null>(null);
+): UseFetchResult<ResponseType, BodyType> {
+  const [data, setData] = useState<ResponseType | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string>('');
 
-  useEffect(() => {
-    const fetchData = async () => {
-      setIsLoading(true);
-      try {
-        const response = await post<T>(path, body, withAuthToken);
-        setData(response);
-      } catch (err: any) {
-        setError(err.message);
-      } finally {
-        setIsLoading(false);
-      }
-    };
-    fetchData();
-  }, [path, body, withAuthToken]);
+  const mutateRequest = async (body: BodyType) => {
+    setIsLoading(true);
+    try {
+      const response = await post<ResponseType>(path, body, withAuthToken);
+      setData(response);
+    } catch (err: any) {
+      setError(err.message);
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
-  return {data, isLoading, error};
+  return {data, isLoading, error, mutateRequest};
 }
 
 export default usePost;

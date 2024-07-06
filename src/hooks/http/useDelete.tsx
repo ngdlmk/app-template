@@ -1,40 +1,33 @@
-import {useState, useEffect} from 'react';
+import {useState} from 'react';
 import {del} from 'utils/apiClient';
-
-interface UseFetchOptions {
-  withAuthToken?: boolean;
-}
-
-interface UseFetchResult<T> {
-  data: T | null;
+interface UseFetchResult<ResponseType> {
+  data: ResponseType | null;
   isLoading: boolean;
   error: string;
+  mutateRequest: () => void;
 }
 
-function useDelete<T>(
+function useDelete<ResponseType>(
   path: string,
-  {withAuthToken = false}: UseFetchOptions = {},
-): UseFetchResult<T> {
-  const [data, setData] = useState<T | null>(null);
+  withAuthToken = false,
+): UseFetchResult<ResponseType> {
+  const [data, setData] = useState<ResponseType | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string>('');
 
-  useEffect(() => {
-    const fetchData = async () => {
-      setIsLoading(true);
-      try {
-        const response = await del<T>(path, withAuthToken);
-        setData(response);
-      } catch (err: any) {
-        setError(err.message);
-      } finally {
-        setIsLoading(false);
-      }
-    };
-    fetchData();
-  }, [path, withAuthToken]);
+  const mutateRequest = async () => {
+    setIsLoading(true);
+    try {
+      const response = await del<ResponseType>(path, withAuthToken);
+      setData(response);
+    } catch (err: any) {
+      setError(err.message);
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
-  return {data, isLoading, error};
+  return {data, isLoading, error, mutateRequest};
 }
 
 export default useDelete;

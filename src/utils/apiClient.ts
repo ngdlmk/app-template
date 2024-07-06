@@ -3,8 +3,6 @@ import Config from 'react-native-config';
 
 const storage = new MMKV();
 
-const getAuthToken = (): string | null => storage.getString('authToken');
-
 interface RequestOptions {
   method: string;
   headers: Record<string, string>;
@@ -17,7 +15,11 @@ const apiClient = async <T>(
   body: any = null,
   withAuthToken: boolean = false,
 ): Promise<T> => {
-  const token = getAuthToken();
+  console.log(`${Config.BASE_URL}${path}`);
+  let token;
+  if (storage.getString('authToken')) {
+    token = storage.getString('authToken');
+  }
   const headers: Record<string, string> = {
     'Content-Type': 'application/json',
   };
@@ -35,7 +37,7 @@ const apiClient = async <T>(
     options.body = JSON.stringify(body);
   }
 
-  const response = await fetch(`${Config.BASE_URL}/${path}`, options);
+  const response = await fetch(`${Config.BASE_URL}${path}`, options);
   if (!response.ok) {
     throw new Error(`HTTP error! status: ${response.status}`);
   }
