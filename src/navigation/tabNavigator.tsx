@@ -37,6 +37,7 @@ const TabNavigator = () => {
         component={PlaceholderComponent}
         listeners={() => ({
           tabPress: e => {
+            //firebase.crashlytics().crash();
             e.preventDefault(); // Prevent default action (navigation)
             // Perform your custom action here, e.g., open an action sheet
             console.log('Custom action, like opening an action sheet');

@@ -46,13 +46,17 @@ local.properties
 *.hprof
 .cxx/
 *.keystore
+*.jks
 !debug.keystore
+*.apk
+*.aab
 
 # node.js
 #
 node_modules/
 npm-debug.log
 yarn-error.log
+.yarn
 
 # fastlane
 #
